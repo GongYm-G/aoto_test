@@ -24,3 +24,4 @@ class RQ:
 url = 'http://10.0.2.62:50500/Login/Login'
 values = {'UserName':'qingypqgly', 'Password':666666, 'LoginType':3}
 r = RQ(url, values)
+print(r)
