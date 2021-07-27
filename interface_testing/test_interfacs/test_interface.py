@@ -25,21 +25,32 @@ class TestInterFace:
         if self.joint == '是':
             a = self.requestsManner()
             if self.result in a.text:
-                print('pass')
+                # print('pass')
+                return (a.cookies, True)
             else:
-                print('fail', a.text)
-            return a.cookies
+                # print('fail', a.text)
+                return (a.cookies, False)
+
         else:
             a = self.requestsManner()
             if self.result in a.text:
-                print('pass')
+                # print('pass')
+                return (True)
             else:
-                print('fail', a.text)
+                # print('fail', a.text)
+                return (False)
 
 
 if __name__ == '__main__':
     c = Config().parameterFormatting()
     cookie = None
+    forgetToken = None
     for i, j in list(c):
         t = TestInterFace(i, j, cookie)
-        cookie = t.test_interface()
+        a = t.test_interface()
+        if str(type(a)) == "<class 'bool'>":
+            pass
+        else:
+            cookie = a[0]
+        print(a)
+

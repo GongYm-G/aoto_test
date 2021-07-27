@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/interface testing/test_interfacs/__init__.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/interface testing/test_interfacs/config.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/interface testing/test_interfacs/cs.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/interface testing/test_interfacs/test_interface.py" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/interface_testing/test_interfacs/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interface_testing/test_interfacs/config.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interface_testing/test_interfacs/cs.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interface_testing/test_interfacs/test_interface.py" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
