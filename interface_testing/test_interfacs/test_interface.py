@@ -1,4 +1,4 @@
-import requests, xlutils.copy
+import requests
 from interface_testing.test_interfacs.config import Config
 
 
@@ -15,9 +15,11 @@ class TestInterFace:
         if self.post == 'POST':
             r = requests.post(self.url, self.data, cookies = self.cookie)
             return r
-        else:
+        elif self.post == 'GET':
             r = requests.get(self.url, self.data, cookies = self.cookie)
             return r
+        else:
+            print('请求方式错误，请使用GET或POST方式进行请求')
 
     def test_interface(self):
         if self.joint == '是':
@@ -33,6 +35,7 @@ class TestInterFace:
                 print('pass')
             else:
                 print('fail', a.text)
+
 
 if __name__ == '__main__':
     c = Config().parameterFormatting()
