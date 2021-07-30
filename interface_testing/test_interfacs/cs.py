@@ -8,7 +8,7 @@ from interface_testing.test_interfacs.test_interface import *
 # url4 = 'http://10.0.3.75:8080/jwshoplogin/user/forget_check_answer.do'
 # url5 = 'http://10.0.3.75:8080/jwshoplogin/user/forget_reset_password.do'
 #
-# data1 = {'username':'测试账号6', 'password':'qwerty'}
+# data1 = {'username':'测试账号6', 'sign':'qwerty'}
 # data2 = {}
 # data4 = {'username':'qwerty', 'question':'e', 'answer':'w'}
 # data5 = {'username':'qwerty', 'passwordNew':'123456', 'forgetToken':'4435ae12-9169-4aec-8661-04293ddfc400'}
