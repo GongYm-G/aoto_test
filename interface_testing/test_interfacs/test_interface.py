@@ -26,7 +26,7 @@ class TestInterFace:
             a = self.requestsManner()
             if self.result in a.text:
                 self.cookie = a.cookies
-                # print('pass',a.text)
+                print('pass', a.text)
                 return True
             else:
                 self.cookie=a.cookies
@@ -36,7 +36,7 @@ class TestInterFace:
         else:
             a = self.requestsManner()
             if self.result in a.text:
-                print('pass',a.text)
+                print('pass', a.text)
                 return True
             else:
                 print('fail', a.text)
