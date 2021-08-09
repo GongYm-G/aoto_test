@@ -1,6 +1,5 @@
-import requests
 import unittest
-from interface_testing.test_interfacs.test_interface import *
+from test_interface_testing.test_interfacs.test_script.test_interface import *
 
 # url1 = 'http://10.0.3.75:8080/jwshoplogin/user/login.do'
 # url2 = 'http://10.0.3.75:8080/jwshoplogin/user/get_information.do'

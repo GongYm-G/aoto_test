@@ -1,15 +1,14 @@
 import requests
-from interface_testing.test_interfacs.config import Config
+from test_interface_testing.test_interfacs.test_config.config import Config
 
 
 class TestInterFace:
-    def __init__(self, values, data, cookie=None):
+    def __init__(self, values, data):
         self.joint = values[-1]
         self.result = values[1]
         self.post = values[3]
         self.url = values[4]
         self.data = data
-        self.cookie = cookie
 
     def requestsManner(self):
         if self.post == 'POST':
